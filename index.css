@@ -39,5 +39,9 @@ p {
 }
 
 .secondary h1 {
-    margin-bottom: .5em
+    margin-bottom: .5em;
+}
+
+.secondary p {
+    line-height: 1.5em;
 }
