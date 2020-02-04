@@ -18,7 +18,7 @@ body {
 
 .card {
     background: white;
-    padding: .2em;
+    padding: .2em;       // remember to use 'em' not pixels so that it is responsive
     width: 60%;
 }
 
@@ -38,6 +38,7 @@ p {
     padding: 1.9em;
 }
 
+// only affects 'h1' if inside a div with class 'secondary'
 .secondary h1 {
     margin-bottom: .5em;
 }
